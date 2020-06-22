@@ -10,11 +10,11 @@ var book={
     print:function(){
         return(this.name+"=>"+this.page+' '+this.year);
     }
-}
-book['year']=2018;
+};
+book.year=2018;
 
-console.log(book.print())
+console.log(book.print());
 
-for(props in book){
-    console.log(props+": "+book[props])
+for(var props in book){
+    console.log(props+": "+book[props]);
 }
