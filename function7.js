@@ -17,5 +17,5 @@ function myfunc(array){
         sum+=array[i];
     }
 }
-myfunc(arr)
+myfunc(arr);
 console.log(sum);
