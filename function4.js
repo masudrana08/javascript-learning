@@ -20,7 +20,7 @@ var peoples=[
 ];
 var b=peoples.sort(function(a,b){
     return a.age-b.age;
-})
+});
 console.log(b);
 
 var c=peoples.sort(function(a,b){
